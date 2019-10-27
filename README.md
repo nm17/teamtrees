@@ -7,7 +7,14 @@ $ pip install teamtrees
 ```
 
 ## Usage
-You can either use the cli `teamtrees` or through Python:
+You can either use the cli `teamtrees`: 
+```sh
+$ teamtrees --recent >> recent_donations.csv
+$ teamtrees --top >> top_donations.csv
+$ teamtrees # Get current amount of trees planted
+```
+
+Or through Python:
 ```python
 import teamtrees
 
